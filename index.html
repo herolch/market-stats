@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1830" />
+  <meta name="description" content="환율과 시장 지표를 살펴보는 개인용 참고 대시보드" />
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="stylesheet" href="./styles.css?v=c4aac6a6ca" />
+  <title>경제 통계 관측소</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">₩</span>
+        <div><strong>경제 통계 관측소</strong>
+          <button id="home-button" class="home-button" type="button" aria-pressed="false">주요 지표</button><span class="data-count" id="data-count"></span></div>
+      </div>
+      <nav class="cat-list" id="cat-bar" aria-label="대분류"></nav>
+      <div class="top-right">
+        <div class="top-status" id="top-status" role="status">자료 확인 중</div>
+        <div class="top-actions">
+        <div class="search" id="search">
+          <button type="button" class="search-open" id="search-open" aria-label="지표·종목·지역 검색"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+          <input type="search" id="search-input" placeholder="지표·종목·지역 검색" autocomplete="off" enterkeyhint="search" aria-label="지표·종목·지역 검색">
+          <button type="button" class="search-close" id="search-close" aria-label="검색 닫기">✕</button>
+          <div class="search-results" id="search-results" role="listbox" hidden></div>
+        </div>
+        <button id="refresh-button" class="secondary-button refresh-button" type="button" title="서버에 저장된 최신 자료를 다시 확인합니다" aria-label="자료 새로 고침"><span class="refresh-icon" aria-hidden="true">↻</span><span class="refresh-text" id="refresh-text">자료 새로 고침</span></button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="cat-bar" id="sub-nav" aria-label="중분류">
+      <div class="sub-bar" id="sub-bar" hidden aria-label="중분류"></div>
+    </nav>
+
+    <main>
+      <section class="panel list-panel" id="list-section">
+        <div class="section-top">
+          <div><h2><span id="list-title">환율 현황</span> <small id="list-unit">(단위: 원화 환산)</small></h2><p id="list-desc">항목을 누르면 아래 그래프가 바뀝니다.</p></div>
+        </div>
+        <div class="metric-bar" id="metric-bar" hidden></div>
+        <div class="rate-section" id="rate-section" hidden></div>
+        <div class="rate-section" id="inc-section" hidden></div>
+        <div class="currency-grid" id="currency-grid"></div>
+        <button type="button" class="list-more" id="list-more" aria-controls="currency-grid" hidden>전체 보기 ▼</button>
+        <div class="etf-panel" id="etf-panel" hidden>
+          <div class="etf-top">
+            <h3 id="etf-title">상품</h3>
+          </div>
+          <input type="search" id="etf-search" class="etf-search" placeholder="이 분류에서 이름이나 코드로 찾기" aria-label="ETF 검색" />
+          <div class="etf-sortbar">
+            <label><span class="sr-only">정렬 기준</span><select id="etf-sort" aria-label="정렬 기준"></select></label>
+            <button type="button" class="secondary-button" id="etf-dir">높은 순 ▼</button>
+          </div>
+          <div class="etf-head"><span>순위</span><span>종목</span><span>종가(원)</span><span id="etf-head-val">전일 대비</span><span></span></div>
+          <div class="etf-list" id="etf-list"></div>
+          <button type="button" class="list-more" id="etf-more" hidden>20개 더 보기</button>
+        </div>
+      </section>
+
+      <section class="panel rmap-panel pmap-panel" id="pmap-section" hidden>
+        <div class="rmap-head">
+          <nav class="rmap-crumbs" id="pmap-crumbs" aria-label="지역 경로"></nav>
+          <span class="rmap-size-note" id="pmap-note"></span>
+        </div>
+        <div class="rmap-tree pmap-tree" id="pmap-tree" aria-label="인구 네모 칸"></div>
+        <div class="rmap-legend" id="pmap-legend" aria-label="네모 칸 색 범례"></div>
+        <p class="rmap-note" id="pmap-note2"></p>
+      </section>
+      <section class="panel rmap-panel pmap-panel" id="smap-section" hidden>
+        <div class="rmap-head">
+          <nav class="rmap-crumbs" id="smap-crumbs" aria-label="시장 경로"></nav>
+          <span class="rmap-size-note" id="smap-note"></span>
+        </div>
+        <div class="rmap-tree pmap-tree" id="smap-tree" aria-label="주식 네모 칸"></div>
+        <div class="rmap-legend" id="smap-legend" aria-label="네모 칸 색 범례"></div>
+        <p class="rmap-note" id="smap-note2"></p>
+        <div class="smap-list" id="smap-list"></div>
+      </section>
+      <section class="panel rmap-panel pmap-panel" id="tmap-section" hidden>
+        <div class="rmap-head">
+          <nav class="rmap-crumbs" id="tmap-crumbs" aria-label="지역 경로"></nav>
+          <span class="rmap-size-note" id="tmap-note"></span>
+        </div>
+        <div id="tmap-btns"></div>
+        <div class="rmap-tree pmap-tree" id="tmap-tree" aria-label="수출입 네모 칸"></div>
+        <div class="rmap-legend" id="tmap-legend" aria-label="네모 칸 색 범례"></div>
+        <p class="rmap-note" id="tmap-note2"></p>
+      </section>
+      <section class="panel rmap-panel pmap-panel" id="hub-section" hidden>
+        <div class="rmap-head"><nav class="rmap-crumbs" id="hub-crumbs" aria-label="지역 경로"></nav></div>
+        <div class="rmap-tree pmap-tree hub-tree" id="hub-tree" aria-label="공급·재고 네모 칸"></div>
+        <div class="rmap-legend" id="hub-legend" aria-label="네모 칸 색 범례"></div>
+        <p class="rmap-note">칸을 누르거나 위에서 지역을 고르면 아래 단계로 들어갑니다. 건축HUB 자료는 서울부터 받습니다.</p>
+      </section>
+      <section class="panel rmap-panel" id="rmap-section" hidden>
+        <div class="rmap-kinds" id="rmap-kinds" aria-label="부동산 종류"></div>
+        <div class="rmap-head">
+          <nav class="rmap-crumbs" id="rmap-crumbs" aria-label="지역 경로"></nav>
+          <span class="rmap-size-note" id="rmap-size-note"></span>
+        </div>
+        <div class="rmap-body">
+          <div class="rmap-left">
+            <div class="rmap-tree" id="rmap-tree" aria-label="지역 네모 칸"></div>
+            <div class="rmap-legend" id="rmap-legend" aria-label="네모 칸 색 범례"></div>
+            <p class="rmap-note" id="rmap-note"></p>
+          </div>
+          <div class="rmap-right">
+            <div class="rmap-years" id="rmap-years" aria-label="연도 고르기"></div>
+            <div class="rmap-years rmap-months" id="rmap-months" aria-label="달 고르기 (여러 개)"></div>
+            <div class="rmap-chart-wrap"><canvas id="rmap-chart" role="img" aria-label="㎡당 가격 분포 곡선과 거래 점"></canvas><div class="chart-tooltip rmap-tip" id="rmap-tip" hidden></div></div>
+            <div class="rmap-stats" id="rmap-stats"></div>
+          </div>
+        </div>
+        <div class="rmap-long" id="rmap-long" hidden>
+          <div class="rmap-long-head">
+            <div><strong id="rmap-long-title"></strong> <span class="rmap-long-note" id="rmap-long-note"></span></div>
+            <div class="rmap-long-ctl">
+              <div class="rmap-long-mode" id="rmap-long-mode"><button type="button" data-mode="price" class="on">거래가(억 원)</button><button type="button" data-mode="ppm">㎡당(만 원)</button></div>
+            </div>
+          </div>
+          <div class="rmap-long-legend" id="rmap-long-legend"></div>
+          <div class="rmap-long-wrap"><canvas id="rmap-long-chart" role="img" aria-label="단지 거래가 장기 추이"></canvas><div class="chart-tooltip rmap-tip" id="rmap-long-tip" hidden></div></div>
+          <div class="legend legend-note rmap-long-key"><span class="legend-item long"><i></i>선 = 면적별 월 중위값 <em>3개월 넘게 거래가 없으면 끊음</em></span><span class="legend-item short"><i></i>점 = 거래 하나</span><span class="legend-item band"><i></i>파란 배경 = 위 분포 그래프에서 고른 해</span></div>
+        </div>
+      </section>
+
+      <div class="notice" id="notice" role="status" hidden></div>
+
+      <section class="chart-panel panel" id="combo-section">
+        <div class="chart-head">
+        <div class="section-top">
+          <div>
+            <label class="item-picker"><span class="sr-only">그래프 항목 선택</span><select id="item-select" aria-label="그래프 항목 선택"></select></label>
+            <p class="item-unit" id="selected-name"></p>
+          </div>
+        </div>
+        <div class="period-rows">
+          <div class="period-row">
+            <span class="period-label long">장기</span>
+            <div class="period-buttons" id="daily-periods" aria-label="장기 분석 기간">
+              <button type="button" data-period="1" data-chart="daily">1년</button>
+              <button type="button" data-period="3" data-chart="daily">3년</button>
+              <button type="button" data-period="5" data-chart="daily">5년</button>
+              <button type="button" data-period="10" data-chart="daily" class="active">10년</button>
+              <button type="button" data-period="20" data-chart="daily">20년</button>
+            </div>
+          </div>
+          <div class="period-row">
+            <span class="period-label short">단기</span>
+            <div class="period-buttons short" id="hourly-periods" aria-label="단기 분석 기간">
+              <button type="button" data-period="7" data-chart="hourly">1주</button>
+              <button type="button" data-period="30" data-chart="hourly">1개월</button>
+              <button type="button" data-period="90" data-chart="hourly">3개월</button>
+              <button type="button" data-period="180" data-chart="hourly">6개월</button>
+              <button type="button" data-period="365" data-chart="hourly" class="active">1년</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="chart-wrap combo" id="combo-chart-wrap">
+          <canvas id="combo-chart" role="img" aria-label="장기와 단기 흐름을 겹쳐 그린 그래프"></canvas>
+          <div class="chart-tooltip" id="combo-tooltip" hidden></div>
+        </div>
+        <div class="legend legend-note" aria-label="범례">
+          <span class="legend-item long"><i></i><span id="legend-long">장기 · 일별</span> <em>아래쪽 날짜</em></span>
+          <span class="legend-item short"><i></i><span id="legend-short">단기 · 시간별 1년</span> <em>위쪽 날짜</em></span>
+          <span class="legend-item ma"><i></i>점선 = 이동평균 <em>장기 100일 · 단기 10일</em></span>
+          <span class="legend-item band"><i></i>회색 띠 = 단기 구간 <em>장기 그래프에서의 위치</em></span>
+        </div>
+        <div class="stats-label long" id="stats-long-label">장기 · 일별 (전일까지)</div>
+        <div class="chart-stats" id="daily-stats">
+          <div><span>최저</span><strong>—</strong></div><div><span>평균</span><strong>—</strong></div><div><span>최고</span><strong>—</strong></div><div><span>자료 건수</span><strong>—</strong></div>
+        </div>
+        <div class="stats-label short" id="stats-short-label">단기 · 시간별 (전일까지)</div>
+        <div class="chart-stats" id="hourly-stats">
+          <div><span>최저</span><strong>—</strong></div><div><span>평균</span><strong>—</strong></div><div><span>최고</span><strong>—</strong></div><div><span>자료 건수</span><strong>—</strong></div>
+        </div>
+        <p class="chart-caption" id="combo-caption">그래프를 터치하면 그 위치의 날짜와 값을 표시합니다.</p>
+      </section>
+
+      <section class="panel target-panel">
+        <div>
+          <h2><span id="target-title">내 관심 환율</span> <small>판단 기준선</small></h2>
+          <p>설정한 값을 그래프에 표시합니다. 항목마다 따로 저장됩니다. 알림·주문은 실행하지 않습니다.</p>
+        </div>
+        <div class="target-controls">
+          <label for="target-input" id="target-label">기준선 입력 (원 / 1 USD)</label>
+          <div class="target-row">
+            <input id="target-input" type="number" inputmode="decimal" min="0" step="any" placeholder="예: 1300" />
+            <button type="button" id="target-save" class="primary-button">기준선 저장</button>
+            <button type="button" id="target-clear" class="secondary-button">지우기</button>
+          </div>
+          <span class="hint" id="target-hint">기준선은 이 휴대전화의 브라우저에만 저장됩니다.</span>
+        </div>
+      </section>
+
+      <footer>
+        <h2 class="foot-title">이용 안내</h2>
+        <ul class="foot-list">
+          <li>참고용 자료입니다. 투자·거래 판단의 근거로 쓰지 마십시오. 거래·주문 기능은 없습니다.</li>
+          <li>빈 값은 임의로 채우지 않습니다. 지표마다 발표 주기(일·월·분기)가 다르고, 최근 값은 나중에 고쳐질 수 있습니다.</li>
+          <li>환율은 유럽중앙은행 기준환율(Source: ECB statistics)입니다. 유로/원 외의 통화는 ECB 기준 환율로 계산한 값이라 은행 고시 환율과 다를 수 있습니다.</li>
+          <li>원자료 공개 범위: 부동산은 거래마다 ㎡당 가격·전용면적·계약월만 그래프의 점으로 보이고, 거래 금액·층·계약일은 올리지 않습니다. 예금·대출 금리에서 신협·새마을금고는 기관별 금리 대신 평균·중앙값·최고값만 보입니다. 은행·저축은행은 금감원 공시 금리로 금융회사별 순위와 가입 금액별 상품을 보이고, 상품별 원자료 파일은 올리지 않습니다.</li>
+        </ul>
+        <h2 class="foot-title">자료 출처</h2>
+        <div class="foot-table-wrap">
+          <table class="foot-table">
+            <thead><tr><th>분야</th><th>내용</th><th>출처</th><th>갱신(한국 시각)</th></tr></thead>
+            <tbody>
+            <tr><td>환율</td><td>20개 통화 일별 기준환율. 유로/원은 ECB 원래 값, 그 밖의 통화는 ECB 기준 환율로 계산(유로를 거친 교차환율)</td><td>Source: ECB statistics (<a href="https://www.ecb.europa.eu/stats/" target="_blank" rel="noopener noreferrer">유럽중앙은행</a>, <a href="https://frankfurter.dev/" target="_blank" rel="noopener noreferrer">Frankfurter</a> 경유)</td><td>매일 10:16</td></tr>
+            <tr><td>예금·대출 금리</td><td>은행·저축은행 정기예금·적금·주택담보·전세자금·신용대출 (금융회사별)</td><td>금융감독원 금융상품 통합비교공시</td><td>하루 1번</td></tr>
+            <tr><td>예금·대출 금리</td><td>예금은행 가중평균금리 (신규취급액, 월별)</td><td>한국은행 ECOS</td><td>매일 확인</td></tr>
+            <tr><td>예금·대출 금리</td><td>신협·새마을금고 정기예금·정기적금 (전국, 특판 제외, 평균·시도별)</td><td>신협중앙회 예금 금리비교, 새마을금고중앙회 금고별 금리안내 — 약관 미확인 자료로 요청 시 즉시 비공개</td><td>매일 새벽</td></tr>
+            <tr><td>미국 경제</td><td>금리(정책금리·국채·장단기 금리차)·통화(M2·연준 총자산)·물가(CPI·PCE·기대인플레이션)·고용(실업률·비농업 고용·실업수당 청구)·경기(GDP·산업생산·소매판매·주택 착공)</td><td><a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a> (미국 세인트루이스 연방준비은행)</td><td>매일 07:40</td></tr>
+            <tr><td>중국 경제</td><td>정책금리·외환보유액·소비자물가·GDP 성장률·수출입·경상수지</td><td><a href="https://ecos.bok.or.kr/" target="_blank" rel="noopener noreferrer">한국은행 ECOS</a> 국제 통계</td><td>매일 18:35</td></tr>
+            <tr><td>한국 경제</td><td>금리·물가·성장·수출입·채권 등</td><td><a href="https://ecos.bok.or.kr/" target="_blank" rel="noopener noreferrer">한국은행 경제통계시스템(ECOS)</a></td><td>매일 18:20</td></tr>
+            <tr><td>한국 경제</td><td>최저임금</td><td><a href="https://www.minimumwage.go.kr/" target="_blank" rel="noopener noreferrer">최저임금위원회</a> 결정 현황</td><td>해마다</td></tr>
+            <tr><td>한국 경제</td><td>주민등록 인구</td><td><a href="https://www.data.go.kr/" target="_blank" rel="noopener noreferrer">행정안전부 주민등록 인구 (공공데이터포털)</a></td><td>매일 18:50</td></tr>
+            <tr><td>한국 무역</td><td>첨단산업 품목별 수출입</td><td><a href="https://www.data.go.kr/" target="_blank" rel="noopener noreferrer">관세청 품목별 국가별 수출입실적 (공공데이터포털)</a></td><td>월별 자료, 수시 확인</td></tr>
+            <tr><td>금융 시장</td><td>국내 주가지수(코스피·코스닥·KRX 등)·국고채·채권지수, 주식 전 종목 시세, ETF 시세</td><td><a href="https://www.data.go.kr/" target="_blank" rel="noopener noreferrer">금융위원회 지수·증권상품·주식시세 (공공데이터포털)</a></td><td>평일 18:30 이후 (전 거래일 장 마감)</td></tr>
+            <tr><td>국제 경제</td><td>원유(WTI·브렌트)·천연가스 현물가, 달러지수(연준 광의), 미국 국채 금리</td><td><a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a> (미 에너지정보청·연준·재무부 자료)</td><td>매일 07:40</td></tr>
+            <tr><td>부동산</td><td>아파트·연립다세대·오피스텔·단독다가구 매매·전월세, 토지 매매</td><td><a href="https://rt.molit.go.kr/" target="_blank" rel="noopener noreferrer">국토교통부 실거래가</a> (공공데이터포털)</td><td>10분마다 (신고 뒤 반영)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="foot-meta">재배포가 허용되지 않은 자료(민간 시세·거래소 자료 등)는 수집만 하고 이 웹앱에는 싣지 않습니다. 쓰는 자료는 공공데이터포털·한국은행·FRED 등 재사용이 허용된 출처입니다.</p>
+        <p class="foot-meta">수집 프로그램: Market_Runner (개인 서버에서 자동 수집) · <span id="footer-updated">최종 수집: —</span></p>
+      </footer>
+    </main>
+  </div>
+  <script src="./app.js?v=c4aac6a6ca" defer></script>
+</body>
+</html>

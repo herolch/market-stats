@@ -1,0 +1,425 @@
+{
+ "source": "motie_fdi",
+ "group": "2025Q3",
+ "docs": {
+  "1014(15석간, 15(수) 10시엠바고)투자유치과, 2025년 3분기 외국인직접투자.hwpx": {
+   "title": "2025년 3분기 외국인직접투자",
+   "format": "hwp",
+   "period": "2025년3분기",
+   "tables_all": 33,
+   "tables_saved": 0,
+   "ok": 0,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.061,
+   "bytes": 1496064,
+   "reader": "0.1.1",
+   "items": []
+  },
+  "(별첨) 2025년 3분기 외국인직접투자 동향.hwp": {
+   "title": "2025년 3분기 외국인직접투자",
+   "format": "hwp",
+   "period": "2025년3분기",
+   "tables_all": 24,
+   "tables_saved": 21,
+   "ok": 21,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.228,
+   "bytes": 194048,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t03.csv",
+     "table": 3,
+     "title": "업종별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t04.csv",
+     "table": 4,
+     "title": "업종별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t05.csv",
+     "table": 5,
+     "title": "국가별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 9,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t06.csv",
+     "table": 6,
+     "title": "국가별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 9,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t07.csv",
+     "table": 7,
+     "title": "대상별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t08.csv",
+     "table": 8,
+     "title": "대상별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t09.csv",
+     "table": 9,
+     "title": "자금별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t10.csv",
+     "table": 10,
+     "title": "자금별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t11.csv",
+     "table": 11,
+     "title": "분기별 투자 실적",
+     "unit": "건, 백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t12.csv",
+     "table": 12,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t13.csv",
+     "table": 13,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t14.csv",
+     "table": 14,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2023",
+      "2024"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t15.csv",
+     "table": 15,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2023",
+      "2024"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t16.csv",
+     "table": 16,
+     "title": "국가별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2023",
+      "2024"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t17.csv",
+     "table": 17,
+     "title": "국가별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2023",
+      "2024"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t18.csv",
+     "table": 18,
+     "title": "대상별 투자 실적 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t19.csv",
+     "table": 19,
+     "title": "대상별 투자 실적 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t20.csv",
+     "table": 20,
+     "title": "자금별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t21.csv",
+     "table": 21,
+     "title": "자금별 투자 실적 (도착기준)",
+     "unit": "백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2020"
+     ],
+     "rows": 31,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t22.csv",
+     "table": 22,
+     "title": "지자체별 투자유치 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2023",
+      "2024"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2025Q3/_별첨_2025년_3분기_외국인직접투자_동향_t23.csv",
+     "table": 23,
+     "title": "지자체별 투자유치 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2025년3분기",
+     "header_years": [
+      "2023",
+      "2024"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

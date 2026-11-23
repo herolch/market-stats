@@ -1,0 +1,98 @@
+{
+ "source": "motie_fdi",
+ "group": "2023Q1",
+ "docs": {
+  "0406(7조간)투자유치과, 2023년 1분기 외국인직접투자, 역대 최대 신고.hwpx": {
+   "title": "2023년 1분기 외국인직접투자, 역대 최대 신고",
+   "format": "hwpx",
+   "period": "2023년1분기",
+   "tables_all": 22,
+   "tables_saved": 2,
+   "ok": 2,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.156,
+   "bytes": 345304,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Q1/0406_7조간_투자유치과_2023년_1분기_외국인직접_t06.csv",
+     "table": 6,
+     "title": "연도별 FDI 금액",
+     "unit": "억불",
+     "period": "2023년1분기",
+     "header_years": [],
+     "rows": 4,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q1/0406_7조간_투자유치과_2023년_1분기_외국인직접_t21.csv",
+     "table": 21,
+     "title": "Ⅲ. 2023년 1분기 주요 외투 주요 사례(0.5억불 초과 상위 18개사)",
+     "unit": null,
+     "period": "2023년1분기",
+     "header_years": [],
+     "rows": 20,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 1,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "0406(7조간)투자유치과, 2023년 1분기 외국인직접투자, 역대 최대 신고.hwp": {
+   "title": "2023년 1분기 외국인직접투자, 역대 최대 신고",
+   "format": "hwp",
+   "period": "2023년1분기",
+   "tables_all": 22,
+   "tables_saved": 2,
+   "ok": 2,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.084,
+   "bytes": 361472,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Q1/0406_7조간_투자유치과_2023년_1분기_외국인직접_t06.csv",
+     "table": 6,
+     "title": "연도별 FDI 금액",
+     "unit": "억불",
+     "period": "2023년1분기",
+     "header_years": [],
+     "rows": 4,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q1/0406_7조간_투자유치과_2023년_1분기_외국인직접_t21.csv",
+     "table": 21,
+     "title": "Ⅲ. 2023년 1분기 주요 외투 주요 사례(0.5억불 초과 상위 18개사)",
+     "unit": null,
+     "period": "2023년1분기",
+     "header_years": [],
+     "rows": 20,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 1,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "source": "motie_fdi",
+ "group": "2022H1",
+ "docs": {
+  "0715(16조간)투자유치과, 2022년 상반기 외국인직접투자 동향.hwp": {
+   "title": "2022년 상반기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2022년상반기",
+   "tables_all": 20,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.055,
+   "bytes": 516608,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2022H1/0715_16조간_투자유치과_2022년_상반기_외국인직_t05.csv",
+     "table": 5,
+     "title": "연도별 상반기 FDI 실적",
+     "unit": "억불",
+     "period": "2022년상반기",
+     "header_years": [],
+     "rows": 4,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

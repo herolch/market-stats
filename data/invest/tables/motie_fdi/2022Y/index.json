@@ -1,0 +1,66 @@
+{
+ "source": "motie_fdi",
+ "group": "2022Y",
+ "docs": {
+  "0103(4조간)투자유치과, 2022년 외국인직접투자 동향(수정).hwpx": {
+   "title": "2022년 외국인직접투자, 사상최대인 305억불 달성",
+   "format": "hwpx",
+   "period": "2022년",
+   "tables_all": 23,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.135,
+   "bytes": 452416,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2022Y/0103_4조간_투자유치과_2022년_외국인직접투자_동_t07.csv",
+     "table": 7,
+     "title": "연도별 FDI 금액",
+     "unit": "억불",
+     "period": "2022년",
+     "header_years": [],
+     "rows": 4,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "0103(4조간)투자유치과, 2022년 외국인직접투자 동향(수정).hwp": {
+   "title": "2022년 외국인직접투자, 사상최대인 305억불 달성",
+   "format": "hwp",
+   "period": "2022년",
+   "tables_all": 23,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.052,
+   "bytes": 484864,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2022Y/0103_4조간_투자유치과_2022년_외국인직접투자_동_t07.csv",
+     "table": 7,
+     "title": "연도별 FDI 금액",
+     "unit": "억불",
+     "period": "2022년",
+     "header_years": [],
+     "rows": 4,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

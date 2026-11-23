@@ -1,0 +1,36 @@
+{
+ "source": "motie_fdi",
+ "group": "2021Q3",
+ "docs": {
+  "1007(8조간)투자유치과, 2021년 3분기 외국인직접투자 동향(수정).hwp": {
+   "title": "2021년 3분기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2021년3분기",
+   "tables_all": 28,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.067,
+   "bytes": 588288,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2021Q3/1007_8조간_투자유치과_2021년_3분기_외국인직접_t05.csv",
+     "table": 5,
+     "title": "Ⅰ. 총 괄",
+     "unit": "억불",
+     "period": "2021년3분기",
+     "header_years": [],
+     "rows": 5,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

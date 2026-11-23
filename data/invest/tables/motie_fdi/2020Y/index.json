@@ -1,0 +1,36 @@
+{
+ "source": "motie_fdi",
+ "group": "2020Y",
+ "docs": {
+  "0111(13조간)투자유치과, 2020년 외국인직접투자 동향.hwp": {
+   "title": "2020년 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2020년",
+   "tables_all": 24,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.052,
+   "bytes": 520192,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2020Y/0111_13조간_투자유치과_2020년_외국인직접투자__t06.csv",
+     "table": 6,
+     "title": "【 2020년 외국인직접투자",
+     "unit": "억불, %",
+     "period": "2020년",
+     "header_years": [],
+     "rows": 5,
+     "cols": 7,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

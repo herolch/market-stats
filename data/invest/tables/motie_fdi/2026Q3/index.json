@@ -1,0 +1,429 @@
+{
+ "source": "motie_fdi",
+ "group": "2026Q3",
+ "docs": {
+  "1006(07석간, 7(수) 11시엠바고)투자유치과, 2026년 3분기 외국인직접투자 신고 229.0억 달러(+10.8%), 도착 148.7억 달러(+30.6%).hwpx": {
+   "title": "2026년 3분기 외국인직접투자 신고 229.0억 달러(+10.8%), 도착 148.7억 달러(+30.6%)",
+   "format": "hwpx",
+   "period": "2026년3분기",
+   "tables_all": 33,
+   "tables_saved": 0,
+   "ok": 0,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.034,
+   "bytes": 865227,
+   "reader": "0.1.1",
+   "items": []
+  },
+  "(별첨) 2026년 3분기 외국인직접투자 동향_최종.hwpx": {
+   "title": "2026년 3분기 외국인직접투자 신고 229.0억 달러(+10.8%), 도착 148.7억 달러(+30.6%)",
+   "format": "hwp",
+   "period": "2026년3분기",
+   "tables_all": 27,
+   "tables_saved": 21,
+   "ok": 21,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.136,
+   "bytes": 201728,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t03.csv",
+     "table": 3,
+     "title": "업종별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t04.csv",
+     "table": 4,
+     "title": "업종별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t05.csv",
+     "table": 5,
+     "title": "국가별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 9,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t06.csv",
+     "table": 6,
+     "title": "국가별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 9,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t07.csv",
+     "table": 7,
+     "title": "대상별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t08.csv",
+     "table": 8,
+     "title": "대상별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t09.csv",
+     "table": 9,
+     "title": "자금별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t10.csv",
+     "table": 10,
+     "title": "자금별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2025",
+      "2026"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t11.csv",
+     "table": 11,
+     "title": "분기별 투자 실적",
+     "unit": "건, 백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t12.csv",
+     "table": 12,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t13.csv",
+     "table": 13,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t14.csv",
+     "table": 14,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t15.csv",
+     "table": 15,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2004",
+      "2025"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t16.csv",
+     "table": 16,
+     "title": "국가별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t17.csv",
+     "table": 17,
+     "title": "국가별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2024",
+      "2025"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t18.csv",
+     "table": 18,
+     "title": "대상별 투자 실적 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t19.csv",
+     "table": 19,
+     "title": "대상별 투자 실적 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t20.csv",
+     "table": 20,
+     "title": "자금별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t21.csv",
+     "table": 21,
+     "title": "자금별 투자 실적 (도착기준)",
+     "unit": "백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2021"
+     ],
+     "rows": 31,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t22.csv",
+     "table": 22,
+     "title": "지자체별 투자유치 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+     ],
+     "rows": 22,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2026Q3/_별첨_2026년_3분기_외국인직접투자_동향_최종_t23.csv",
+     "table": 23,
+     "title": "지자체별 투자유치 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2026년3분기",
+     "header_years": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+     ],
+     "rows": 22,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

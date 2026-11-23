@@ -1,0 +1,493 @@
+{
+ "source": "motie_fdi",
+ "group": "2019Y",
+ "docs": {
+  "외국인직접투자 동향-붙임자료.hwp": {
+   "title": "2019년 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2019년",
+   "tables_all": 24,
+   "tables_saved": 21,
+   "ok": 18,
+   "total_mismatch": 3,
+   "cpu_seconds": 0.269,
+   "bytes": 584192,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t03.csv",
+     "table": 3,
+     "title": "업종별 동향",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 7,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t04.csv",
+     "table": 4,
+     "title": "업종별 동향",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 7,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t05_합계불일치.csv",
+     "table": 5,
+     "title": "국가별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 9,
+     "cols": 13,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 10,
+      "problems": [
+       "9행 3열: 합계 4,934 ≠ 행 합 5982.0",
+       "9행 4열: 합계 10,820 ≠ 행 합 11974.0",
+       "9행 5열: 합계 3,449 ≠ 행 합 3635.0",
+       "9행 6열: 합계 7,698 ≠ 행 합 8052.0",
+       "9행 7열: 합계 26,901 ≠ 행 합 29644.0"
+      ]
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t06_합계불일치.csv",
+     "table": 6,
+     "title": "국가별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 9,
+     "cols": 13,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 10,
+      "problems": [
+       "9행 3열: 합계 3,110 ≠ 행 합 3135.0",
+       "9행 4열: 합계 7,157 ≠ 행 합 7854.0",
+       "9행 5열: 합계 2,023 ≠ 행 합 2051.0",
+       "9행 6열: 합계 4,972 ≠ 행 합 5006.0",
+       "9행 7열: 합계 17,263 ≠ 행 합 18047.0"
+      ]
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t07.csv",
+     "table": 7,
+     "title": "대상별 동향",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 5,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t08.csv",
+     "table": 8,
+     "title": "대상별 동향",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 5,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t09.csv",
+     "table": 9,
+     "title": "자금별 동향",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 6,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t10.csv",
+     "table": 10,
+     "title": "자금별 동향",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 6,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t11.csv",
+     "table": 11,
+     "title": "분기별 투자실적",
+     "unit": "건, 백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t12.csv",
+     "table": 12,
+     "title": "업종·분기별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t13.csv",
+     "table": 13,
+     "title": "업종·분기별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t14.csv",
+     "table": 14,
+     "title": "업종별 투자 실적",
+     "unit": null,
+     "period": "2019년",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t15.csv",
+     "table": 15,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t16_합계불일치.csv",
+     "table": 16,
+     "title": "국가별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 25,
+     "cols": 9,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 8,
+      "problems": [
+       "25행 2열: 합계 2,774 ≠ 행 합 5418.0",
+       "25행 3열: 합계 22,948 ≠ 행 합 44519.0",
+       "25행 4열: 합계 2,669 ≠ 행 합 5203.0",
+       "25행 5열: 합계 26,901 ≠ 행 합 53011.0",
+       "25행 6열: 합계 2,675 ≠ 행 합 5229.0"
+      ]
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t17.csv",
+     "table": 17,
+     "title": "국가별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 25,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t18.csv",
+     "table": 18,
+     "title": "대상별 투자 실적",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t19.csv",
+     "table": 19,
+     "title": "대상별 투자 실적",
+     "unit": "백만불, %",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t20.csv",
+     "table": 20,
+     "title": "자금별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t21.csv",
+     "table": 21,
+     "title": "자금별 투자 실적",
+     "unit": "백만불",
+     "period": "2019년",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 32,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t22.csv",
+     "table": 22,
+     "title": "지자체별 투자유치 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/외국인직접투자_동향_붙임자료_t23.csv",
+     "table": 23,
+     "title": "지자체별 투자유치 실적",
+     "unit": "건, 백만불",
+     "period": "2019년",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "0106 2019년 외국인직접투자동향_수정.hwp": {
+   "title": "2019년 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2019년",
+   "tables_all": 23,
+   "tables_saved": 2,
+   "ok": 2,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.053,
+   "bytes": 250880,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2019Y/0106_2019년_외국인직접투자동향_수정_t09.csv",
+     "table": 9,
+     "title": "【 최근 10년(‘10-’19) 외투 실적",
+     "unit": "억불",
+     "period": "2019년",
+     "header_years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 3,
+     "cols": 13,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019Y/0106_2019년_외국인직접투자동향_수정_t10.csv",
+     "table": 10,
+     "title": "【 2019년 분기별 외투 유입 추이",
+     "unit": "억불, %",
+     "period": "2019년",
+     "header_years": [],
+     "rows": 4,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

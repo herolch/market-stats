@@ -1,0 +1,495 @@
+{
+ "source": "motie_fdi",
+ "group": "2023Q3",
+ "docs": {
+  "1003(4석간, 4일(수) 11시엠바고)투자유치과, 2023년 3분기 외국인직접투자, 역대 최대 신고·도착금액 달성.hwpx": {
+   "title": "2023년 3분기 외국인직접투자, 역대 최대 신고·도착금액 달성",
+   "format": "hwpx",
+   "period": "2023년3분기",
+   "tables_all": 16,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.162,
+   "bytes": 610743,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Q3/1003_4석간_4일_수_11시엠바고_투자유치과_202_t14.csv",
+     "table": 14,
+     "title": "Ⅲ. 2023년 3분기 주요 외투 주요 사례(3억불 이상 상위 22개건)",
+     "unit": null,
+     "period": "2023년3분기",
+     "header_years": [],
+     "rows": 24,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "1003(4석간, 4일(수) 11시엠바고)투자유치과, 2023년 3분기 외국인직접투자, 역대 최대 신고·도착금액 달성.hwp": {
+   "title": "2023년 3분기 외국인직접투자, 역대 최대 신고·도착금액 달성",
+   "format": "hwp",
+   "period": "2023년3분기",
+   "tables_all": 16,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.099,
+   "bytes": 625664,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Q3/1003_4석간_4일_수_11시엠바고_투자유치과_202_t14.csv",
+     "table": 14,
+     "title": "Ⅲ. 2023년 3분기 주요 외투 주요 사례(3억불 이상 상위 22개건)",
+     "unit": null,
+     "period": "2023년3분기",
+     "header_years": [],
+     "rows": 24,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "[별첨]2023년 3분기 외국인투자동향.hwp": {
+   "title": "2023년 3분기 외국인직접투자, 역대 최대 신고·도착금액 달성",
+   "format": "hwp",
+   "period": "2023년3분기",
+   "tables_all": 24,
+   "tables_saved": 21,
+   "ok": 17,
+   "total_mismatch": 4,
+   "cpu_seconds": 0.245,
+   "bytes": 621568,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t03.csv",
+     "table": 3,
+     "title": "업종별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t04.csv",
+     "table": 4,
+     "title": "업종별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t05_합계불일치.csv",
+     "table": 5,
+     "title": "국가별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 9,
+     "cols": 12,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 9,
+      "problems": [
+       "9행 3열: 합계 5,447 ≠ 행 합 5564.0",
+       "9행 4열: 합계 5,640 ≠ 행 합 6410.0",
+       "9행 5열: 합계 10,428 ≠ 행 합 10749.0",
+       "9행 6열: 합계 8,931 ≠ 행 합 9204.0",
+       "9행 7열: 합계 30,445 ≠ 행 합 31926.0"
+      ]
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t06_합계불일치.csv",
+     "table": 6,
+     "title": "국가별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 9,
+     "cols": 12,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 9,
+      "problems": [
+       "9행 3열: 합계 4,851 ≠ 행 합 4895.0",
+       "9행 4열: 합계 2,619 ≠ 행 합 2675.0",
+       "9행 5열: 합계 4,106 ≠ 행 합 4156.0",
+       "9행 6열: 합계 6,577 ≠ 행 합 6639.0",
+       "9행 7열: 합계 18,153 ≠ 행 합 18364.0"
+      ]
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t07.csv",
+     "table": 7,
+     "title": "대상별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t08.csv",
+     "table": 8,
+     "title": "대상별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t09.csv",
+     "table": 9,
+     "title": "자금별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t10.csv",
+     "table": 10,
+     "title": "자금별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t11.csv",
+     "table": 11,
+     "title": "분기별 투자 실적",
+     "unit": "건, 백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t12.csv",
+     "table": 12,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t13.csv",
+     "table": 13,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t14.csv",
+     "table": 14,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2021",
+      "2022"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t15.csv",
+     "table": 15,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2021",
+      "2022"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t16_합계불일치.csv",
+     "table": 16,
+     "title": "국가별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2021",
+      "2022"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 8,
+      "problems": [
+       "24행 2열: 합계 3,088 ≠ 행 합 3314.0",
+       "24행 3열: 합계 29,513 ≠ 행 합 40678.0",
+       "24행 4열: 합계 3,462 ≠ 행 합 3677.0",
+       "24행 5열: 합계 30,445 ≠ 행 합 37357.0",
+       "24행 6열: 합계 2,522 ≠ 행 합 2690.0"
+      ]
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t17_합계불일치.csv",
+     "table": 17,
+     "title": "국가별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2021",
+      "2022"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 4,
+      "problems": [
+       "24행 3열: 합계 18,739 ≠ 행 합 24899.0",
+       "24행 5열: 합계 18,153 ≠ 행 합 24246.0",
+       "24행 7열: 합계 13,917 ≠ 행 합 16337.0",
+       "24행 9열: 합계 288,019 ≠ 행 합 386282.0"
+      ]
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t18.csv",
+     "table": 18,
+     "title": "대상별 투자 실적 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t19.csv",
+     "table": 19,
+     "title": "대상별 투자 실적 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t20.csv",
+     "table": 20,
+     "title": "자금별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t21.csv",
+     "table": 21,
+     "title": "자금별 투자 실적 (도착기준)",
+     "unit": "백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 31,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t22.csv",
+     "table": 22,
+     "title": "지자체별 투자유치 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2021",
+      "2022"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Q3/_별첨_2023년_3분기_외국인투자동향_t23.csv",
+     "table": 23,
+     "title": "지자체별 투자유치 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2023년3분기",
+     "header_years": [
+      "2021",
+      "2022"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

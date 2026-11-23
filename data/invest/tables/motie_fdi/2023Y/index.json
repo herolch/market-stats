@@ -1,0 +1,490 @@
+{
+ "source": "motie_fdi",
+ "group": "2023Y",
+ "docs": {
+  "[별첨]2023년 외국인직접투자 동향.hwp": {
+   "title": "2023년 외국인직접투자 327.2억 달러, 역대 최대 실적 달성",
+   "format": "hwp",
+   "period": "2023년",
+   "tables_all": 24,
+   "tables_saved": 21,
+   "ok": 19,
+   "total_mismatch": 2,
+   "cpu_seconds": 0.243,
+   "bytes": 624640,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t03.csv",
+     "table": 3,
+     "title": "업종별 동향",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 7,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t04.csv",
+     "table": 4,
+     "title": "업종별 동향",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 7,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t05_합계불일치.csv",
+     "table": 5,
+     "title": "국가별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 9,
+     "cols": 13,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 10,
+      "problems": [
+       "9행 3열: 합계 5,447 ≠ 행 합 5564.0",
+       "9행 4열: 합계 5,640 ≠ 행 합 6410.0",
+       "9행 5열: 합계 10,428 ≠ 행 합 10749.0",
+       "9행 6열: 합계 8,931 ≠ 행 합 9204.0",
+       "9행 7열: 합계 30,445 ≠ 행 합 31926.0"
+      ]
+     }
+    },
+    {
+     "file": "raw/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t06_합계불일치.csv",
+     "table": 6,
+     "title": "국가별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 9,
+     "cols": 13,
+     "published": false,
+     "total_check": {
+      "ok": false,
+      "checked": 10,
+      "problems": [
+       "9행 3열: 합계 4,851 ≠ 행 합 4895.0",
+       "9행 4열: 합계 2,619 ≠ 행 합 2677.0",
+       "9행 5열: 합계 4,106 ≠ 행 합 4156.0",
+       "9행 6열: 합계 6,591 ≠ 행 합 6652.0",
+       "9행 7열: 합계 18,167 ≠ 행 합 18379.0"
+      ]
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t07.csv",
+     "table": 7,
+     "title": "대상별 동향",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 5,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t08.csv",
+     "table": 8,
+     "title": "대상별 동향",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 5,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t09.csv",
+     "table": 9,
+     "title": "자금별 동향",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 6,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t10.csv",
+     "table": 10,
+     "title": "자금별 동향",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2022",
+      "2023"
+     ],
+     "rows": 6,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 10,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t11.csv",
+     "table": 11,
+     "title": "분기별 투자실적",
+     "unit": "건, 백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t12.csv",
+     "table": 12,
+     "title": "업종·분기별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t13.csv",
+     "table": 13,
+     "title": "업종·분기별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t14.csv",
+     "table": 14,
+     "title": "업종별 투자 실적",
+     "unit": null,
+     "period": "2023년",
+     "header_years": [
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t15.csv",
+     "table": 15,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t16.csv",
+     "table": 16,
+     "title": "국가별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t17.csv",
+     "table": 17,
+     "title": "국가별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": 24,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t18.csv",
+     "table": 18,
+     "title": "대상별 투자 실적",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t19.csv",
+     "table": 19,
+     "title": "대상별 투자 실적",
+     "unit": "백만불, %",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t20.csv",
+     "table": 20,
+     "title": "자금별 투자 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t21.csv",
+     "table": 21,
+     "title": "자금별 투자 실적",
+     "unit": "백만불",
+     "period": "2023년",
+     "header_years": [
+      "2018"
+     ],
+     "rows": 32,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t22.csv",
+     "table": 22,
+     "title": "지자체별 투자유치 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2023Y/_별첨_2023년_외국인직접투자_동향_t23.csv",
+     "table": 23,
+     "title": "지자체별 투자유치 실적",
+     "unit": "건, 백만불",
+     "period": "2023년",
+     "header_years": [
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "0103(4석간, 4일(목) 11시엠바고)투자유치과, 2023년 외국인직접투자 327.2억 달러, 역대 최대 실적 달성(최종).hwpx": {
+   "title": "2023년 외국인직접투자 327.2억 달러, 역대 최대 실적 달성",
+   "format": "hwpx",
+   "period": "2023년",
+   "tables_all": 16,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.174,
+   "bytes": 608347,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Y/0103_4석간_4일_목_11시엠바고_투자유치과_202_t14.csv",
+     "table": 14,
+     "title": "Ⅲ. '23년 주요 외투 주요 사례(3억불 이상 신고금액 상위 24개건)",
+     "unit": null,
+     "period": "2023년",
+     "header_years": [],
+     "rows": 26,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 1,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "0103(4석간, 4일(목) 11시엠바고)투자유치과, 2023년 외국인직접투자 327.2억 달러, 역대 최대 실적 달성(최종).hwp": {
+   "title": "2023년 외국인직접투자 327.2억 달러, 역대 최대 실적 달성",
+   "format": "hwp",
+   "period": "2023년",
+   "tables_all": 16,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.113,
+   "bytes": 610304,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2023Y/0103_4석간_4일_목_11시엠바고_투자유치과_202_t14.csv",
+     "table": 14,
+     "title": "Ⅲ. '23년 주요 외투 주요 사례(3억불 이상 신고금액 상위 24개건)",
+     "unit": null,
+     "period": "2023년",
+     "header_years": [],
+     "rows": 26,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 1,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,460 @@
+{
+ "source": "motie_fdi",
+ "group": "2019H1",
+ "docs": {
+  "2019년 상반기 외국인직접투자 동향-붙임.hwp": {
+   "title": "2019년 상반기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2019년상반기",
+   "tables_all": 24,
+   "tables_saved": 21,
+   "ok": 21,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.24,
+   "bytes": 576512,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t03.csv",
+     "table": 3,
+     "title": "업종별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t04.csv",
+     "table": 4,
+     "title": "업종별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 7,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t05.csv",
+     "table": 5,
+     "title": "국가별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 8,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t06.csv",
+     "table": 6,
+     "title": "국가별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 8,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t07.csv",
+     "table": 7,
+     "title": "대상별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t08.csv",
+     "table": 8,
+     "title": "대상별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 5,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t09.csv",
+     "table": 9,
+     "title": "자금별 동향 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t10.csv",
+     "table": 10,
+     "title": "자금별 동향 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2018",
+      "2019"
+     ],
+     "rows": 6,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 9,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t11.csv",
+     "table": 11,
+     "title": "분기별 투자 실적",
+     "unit": "건, 백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t12.csv",
+     "table": 12,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t13.csv",
+     "table": 13,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t14.csv",
+     "table": 14,
+     "title": "업종별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t15.csv",
+     "table": 15,
+     "title": "업종별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 28,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t16.csv",
+     "table": 16,
+     "title": "국가별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 25,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t17.csv",
+     "table": 17,
+     "title": "국가별 투자 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 25,
+     "cols": 9,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t18.csv",
+     "table": 18,
+     "title": "대상별 투자 실적 (신고기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t19.csv",
+     "table": 19,
+     "title": "대상별 투자 실적 (도착기준)",
+     "unit": "백만불, %",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 6,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t20.csv",
+     "table": 20,
+     "title": "자금별 투자 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t21.csv",
+     "table": 21,
+     "title": "자금별 투자 실적 (도착기준)",
+     "unit": "백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2014"
+     ],
+     "rows": 30,
+     "cols": 8,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t22.csv",
+     "table": 22,
+     "title": "지자체별 투자유치 실적 (신고기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 8,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2019H1/2019년_상반기_외국인직접투자_동향_붙임_t23.csv",
+     "table": 23,
+     "title": "지자체별 투자유치 실적 (도착기준)",
+     "unit": "건, 백만불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 23,
+     "cols": 11,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 4,
+      "problems": []
+     }
+    }
+   ]
+  },
+  "(12일조간) 투자유치과, 2019년 상반기 외국인직접투자 동향_수정안.hwp": {
+   "title": "2019년 상반기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2019년상반기",
+   "tables_all": 37,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.058,
+   "bytes": 304640,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2019H1/_12일조간_투자유치과_2019년_상반기_외국인직접투자_t10.csv",
+     "table": 10,
+     "title": "【 연도별 상반기 외국인직접투자",
+     "unit": "억불",
+     "period": "2019년상반기",
+     "header_years": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+     ],
+     "rows": 3,
+     "cols": 13,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

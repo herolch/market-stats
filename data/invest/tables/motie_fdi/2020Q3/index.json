@@ -1,0 +1,52 @@
+{
+ "source": "motie_fdi",
+ "group": "2020Q3",
+ "docs": {
+  "1012(14조간) 20년 3분기 외국인직접투자 동향_보도자료.hwp": {
+   "title": "2020년 3분기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2020년3분기",
+   "tables_all": 21,
+   "tables_saved": 2,
+   "ok": 2,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.051,
+   "bytes": 551936,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2020Q3/1012_14조간_20년_3분기_외국인직접투자_동향_보_t06.csv",
+     "table": 6,
+     "title": "【 ‘20. 3분기 외국인직접투자",
+     "unit": "억 달러, %",
+     "period": "2020년3분기",
+     "header_years": [],
+     "rows": 4,
+     "cols": 7,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    },
+    {
+     "file": "tables/motie_fdi/2020Q3/1012_14조간_20년_3분기_외국인직접투자_동향_보_t07.csv",
+     "table": 7,
+     "title": "【 최근 10년간 3분기 외국인직접투자",
+     "unit": "억 달러",
+     "period": "2020년3분기",
+     "header_years": [],
+     "rows": 3,
+     "cols": 12,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "source": "motie_fdi",
+ "group": "2020Q1",
+ "docs": {
+  "0408 (10일조간) 투자유치과, 2020.1분기 외국인직접투자동향.hwp": {
+   "title": "2020년 1분기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2020년1분기",
+   "tables_all": 23,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.058,
+   "bytes": 543744,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2020Q1/0408_10일조간_투자유치과_2020_1분기_외국인직_t06.csv",
+     "table": 6,
+     "title": "【 최근 10년(‘10-’19) 1분기 FDI 실적",
+     "unit": "억 달러",
+     "period": "2020년1분기",
+     "header_years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+     ],
+     "rows": 3,
+     "cols": 13,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}

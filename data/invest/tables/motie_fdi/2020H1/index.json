@@ -1,0 +1,48 @@
+{
+ "source": "motie_fdi",
+ "group": "2020H1",
+ "docs": {
+  "0714(16일조간)20년 상반기 외국인직접투자 동향.hwp": {
+   "title": "2020년 상반기 외국인직접투자 동향",
+   "format": "hwp",
+   "period": "2020년상반기",
+   "tables_all": 23,
+   "tables_saved": 1,
+   "ok": 1,
+   "total_mismatch": 0,
+   "cpu_seconds": 0.045,
+   "bytes": 40448,
+   "reader": "0.1.1",
+   "items": [
+    {
+     "file": "tables/motie_fdi/2020H1/0714_16일조간_20년_상반기_외국인직접투자_동향_t06.csv",
+     "table": 6,
+     "title": "【 최근 10년(‘10-’19) 상반기 외국인직접투자",
+     "unit": "억 달러",
+     "period": "2020년상반기",
+     "header_years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+     ],
+     "rows": 3,
+     "cols": 13,
+     "published": true,
+     "total_check": {
+      "ok": true,
+      "checked": 0,
+      "problems": []
+     }
+    }
+   ]
+  }
+ }
+}
